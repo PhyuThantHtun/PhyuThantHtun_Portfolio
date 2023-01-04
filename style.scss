@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "./node_modules/animate.css/animate.min.css";
+
+$primary:#4458dc;
+$secondary:#854fee;
+
+$font-family-sans-serif : 'Roboto',sans-serif;
+$font-family-sans-serif  : 'Rukik',sans-serif;
+
+$navbar-nav-link-padding-x : 1.5rem;
+$nav-link-font-size : 1.2rem;
+$nav-link-font-weight :1rem;
+
+$btn-font-size-lg:1.2rem;
+$btn-padding-x-lg : 1.2rem;
+$btn-padding-y-lg : 0.6rem;
+
+$border-radius-lg: 0.7rem;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+body{
+  width: 100%;
+  
+}
+
+.service{
+  text-align: center;
+}
+.w-40 {
+  width: 80px;
+}
+
+.my-service{
+  transition: 0.3s;
+
+
+  &:hover{
+   transform: translateY(-10px) !important;
+   box-shadow: $box-shadow;
+   
+  }
+
+
+}
