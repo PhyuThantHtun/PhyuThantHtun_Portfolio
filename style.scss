@@ -43,6 +43,11 @@ body{
    box-shadow: $box-shadow;
    
   }
+height: max-content;
 
-
+}
+.card-img{
+  width: 100%;
+  height: 50;
+  object-fit: cover;
 }

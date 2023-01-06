@@ -4,7 +4,7 @@ import ScrollReveal from 'scrollreveal';
 
 
 let options = {
-    strings: ['Phyu Thant Htun...', 'Frontend Developer...'],
+    strings: ['Phyu Thant Htun', 'Frontend Developer'],
     typeSpeed: 30,
     loop:true,
     backDelay:2000,
