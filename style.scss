@@ -4,6 +4,9 @@
 
 $primary:#4458dc;
 $secondary:#854fee;
+$light: #fdfbfd;
+$success:#f7f7f7;
+
 
 $font-family-sans-serif : 'Roboto',sans-serif;
 $font-family-sans-serif  : 'Rukik',sans-serif;
@@ -19,6 +22,7 @@ $btn-padding-y-lg : 0.6rem;
 $border-radius-lg: 0.7rem;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
 
 
 
@@ -50,4 +54,20 @@ height: max-content;
   width: 100%;
   height: 50;
   object-fit: cover;
+}
+hr {
+  color: #854fee;
+}
+
+@media screen and (max-width:280px){
+  .btn{
+     margin-bottom: 3px;
+
+  }
+}
+.mb-150{
+  margin-bottom: 150px;
+}
+.mb-300{
+  margin-bottom: 300px;
 }

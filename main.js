@@ -1,6 +1,8 @@
-import './style.scss'
+import './style.scss';
+import './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import Typed from 'typed.js';
 import ScrollReveal from 'scrollreveal';
+
 
 
 let options = {
@@ -17,7 +19,7 @@ let options = {
     distance: '50px',
     origin: 'top',
     interval : 300,
-    duration: 800
+    duration: 700
 
 };
 
@@ -27,7 +29,7 @@ let toRight = {
   distance: '50px',
   origin: 'left',
   interval : 300,
-  duration: 800
+  duration: 900
 
 };
 
@@ -37,7 +39,7 @@ let toLeft = {
   distance: '50px',
   origin: 'right',
   interval : 300,
-  duration: 800
+  duration: 900
 
 };
 
