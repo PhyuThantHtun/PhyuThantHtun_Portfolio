@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 @import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "./node_modules/font-awesome/css/font-awesome.min.css";
 @import "./node_modules/animate.css/animate.min.css";
 
 $primary:#4458dc;
@@ -28,7 +29,7 @@ $border-radius-lg: 0.7rem;
 
 body{
   width: 100%;
-  
+  background-image: url(./images/portfolio/body-bg.png);
 }
 
 .service{
@@ -68,6 +69,10 @@ hr {
 .mb-150{
   margin-bottom: 150px;
 }
+.mb-100{
+  margin-bottom: 100px;
+}
 .mb-300{
   margin-bottom: 300px;
 }
+
